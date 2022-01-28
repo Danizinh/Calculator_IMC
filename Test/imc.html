@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="imc.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="div-container">
+        <h1 class="h-1">Calculator</h1>
+
+        <div class="all-input">
+            <label>Altura:</label>
+            <input type="text" id='altura'>
+        </div>
+        <div class="all-input">
+            <label>Peso:</label>
+            <input type="text" id='peso'>
+        </div>
+
+        <div class="sub" style="margin: 10px;"></div>
+        <textarea name="" id="text-area" cols="20" rows="5"></textarea>
+        <div style="display: flex;width: 100%; align-items: center; justify-content: center; "><button
+                onclick="calculator()" class="btn div-success">Calcular</button></div>
+
+        <script src="script.js"></script>
+    </div>
+</body>
+
+</html>
