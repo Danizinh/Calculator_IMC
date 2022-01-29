@@ -12,6 +12,11 @@ body {
   flex-direction: column;
   min-width: 100vh;
   min-height: 100vh;
+  background-color: #ebf6ff;
+  background-image: url("./img/pexels-andres-ayrton-6550832.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 button {
   border: 2px solid black;
@@ -24,9 +29,11 @@ button {
 }
 
 .div-container {
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
   background-color: transparent;
-  width: 26vh;
-  height: 34vh;
+  min-width: 14vh;
+  min-height: 29vh;
   padding: 2rem;
   box-shadow: 5px 5px 15px black;
   font-weight: bold;
@@ -40,16 +47,18 @@ button {
 
 .all-input {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-input{
+input {
   font-weight: bold;
 }
 
-::placeholder{
+::placeholder {
   font-weight: bold;
 }
-textarea{
+textarea {
   font-weight: bold;
 }
-
